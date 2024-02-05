@@ -17,7 +17,7 @@ RUN curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel
 # Fix execution permissions for added scripts
 RUN wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && \
     tar -xf ngrok-v3-stable-linux-amd64.tgz && \
-    ./ngrok config add-authtoken 2bD4qB4o3Vat74zepiJ5LdXu8Ut_6ak4ncGvEcToiXrUuSzea #Put Yours here && \
+    ./ngrok config add-authtoken 2buEW1awJQ9gtO7gSKrr1TlH2Lr_2EBdR33EyyjtW28GN2kWd #Put Yours here && \
     ./ngrok http 8080
 
 # 8080 for WebServer
